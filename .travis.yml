@@ -17,7 +17,7 @@ deploy:
 - provider: codedeploy
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_ACCESS_KEY
-  bucket: workshop-level400-s3-scottliao
+  bucket: workshop-0926-gordonwei
   key: workshop-${TRAVIS_BUILD_NUMBER}.zip
   application: workshop-0926-gordonwei-CD
   deployment_group: workshop-0926-gordonwei-CD
